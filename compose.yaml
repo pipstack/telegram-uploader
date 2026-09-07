@@ -1,6 +1,6 @@
 services:
   telegram-uploader:
-    image: dufix/telegram-uploader:1.0.0
+    image: duefix/telegram-uploader:1.0.0
 
     stdin_open: true
     tty: true

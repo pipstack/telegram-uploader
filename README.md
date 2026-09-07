@@ -67,7 +67,7 @@ This project does not require a Telegram Bot Token.
 Clone the repository:
 
 ```bash
-git clone https://github.com/pipstack/telegram-uploader.git
+git clone https://github.com/duefix/telegram-uploader.git
 cd telegram-uploader
 ```
 
@@ -266,7 +266,7 @@ The default Compose configuration is:
 ```yaml
 services:
   telegram-uploader:
-    image: dufix/telegram-uploader:1.0.0
+    image: duefix/telegram-uploader:1.0.0
 
     stdin_open: true
     tty: true
@@ -288,13 +288,13 @@ There is no long-running service to keep running.
 The published image is available on Docker Hub:
 
 ```text
-dufix/telegram-uploader
+duefix/telegram-uploader
 ```
 
 Pull the image manually:
 
 ```bash
-docker pull dufix/telegram-uploader:1.0.0
+docker pull duefix/telegram-uploader:1.0.0
 ```
 
 The recommended way to use the project is through Docker Compose.
