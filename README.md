@@ -67,7 +67,7 @@ This project does not require a Telegram Bot Token.
 Clone the repository:
 
 ```bash
-git clone https://github.com/duefix/telegram-uploader.git
+git clone https://github.com/pipstack/telegram-uploader.git
 cd telegram-uploader
 ```
 
