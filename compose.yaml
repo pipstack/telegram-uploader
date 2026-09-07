@@ -1,0 +1,13 @@
+services:
+  telegram-uploader:
+    image: telegram-uploader:test
+
+    stdin_open: true
+    tty: true
+
+    env_file:
+      - .env
+
+    volumes:
+      - ./files:/files:ro
+      - ./data:/data
